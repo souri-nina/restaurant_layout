@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#h1 {
+  align-items: center;
+}
+
+.section {
+  justify-content: center;
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 24pt;
+  height: 100%;
+  width: auto;
+}
+
+.footer {
+  display: flex;
+  background-color: #000;
+  text-align: center;
+  border: 1.5px solid #af8742;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.header{
+  display: flex;
+  background-color: #000;
+  color: white;
+  border-bottom: 1.5px solid #af8742;
+  padding: 15px;
+ 
+}
+
+.logo {
+  width: 400px;
+  height: auto;
+  justify-self: flex-start;
+}
+
+.slogan {
+  width: 1010px;
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 18pt;
+  letter-spacing: 2px;
+  flex-wrap: wrap;
+  align-self: center;
+  justify-self: center;
+  word-spacing: 1px;
+  
+}
+
+img {
+  height: auto;
+  max-width: 110px;
+  border-radius: 6px;
+}
+
+.nav-container {
+  background-color: #000; 
+}
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #000;
+  overflow:hidden;
+}
+
+li {
+    float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  font-family: 'Fira Sans', sans-serif;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+  color: #af8742;
+}
+
